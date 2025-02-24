@@ -1,0 +1,9 @@
+# Creating Value file for all pods having same module and it will be a default value while creating deploy
+
+service:
+  containerPort: 8080
+  servicePort: 8080
+  type: ClusterIP
+
+deployment:
+  replicas: 1

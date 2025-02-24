@@ -1,12 +1,10 @@
 ## Variable to stored here for different deploys
 appName: frontend
 
+# Overwriting the values in Values.yml file
 service:
   containerPort: 80
   servicePort: 80
   type: LoadBalancer
 
 env: dev
-
-deployment:
-  replicas: 1
